@@ -1,0 +1,19 @@
+{
+  "name": "murder-sheet-content-engine",
+  "version": "1.0.0",
+  "description": "Automated content generation pipeline for The Murder Sheet podcast",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "xml2js": "^0.6.2",
+    "form-data": "^4.0.0"
+  }
+}
